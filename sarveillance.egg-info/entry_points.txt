@@ -1,0 +1,3 @@
+[console_scripts]
+sarveillance = sarveillance.cli:main
+

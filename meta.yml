@@ -1,0 +1,17 @@
+package:
+  name: sarveillance
+  version: 0.0.1
+
+source:
+  path: .
+
+requirements:
+  build:
+    - python
+    - setuptools
+    - pip
+  run:
+    - python==3.9
+    - proj==7.2.0
+    - conda-forge::cartopy
+    - conda-forge::openblas
